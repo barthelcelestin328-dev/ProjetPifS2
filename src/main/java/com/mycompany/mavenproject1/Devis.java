@@ -11,6 +11,7 @@ package com.mycompany.mavenproject1;
 public class Devis {
 
     public static void main(String[] args) {
-        System.out.println("projet S2");
+      
+        
     }
 }

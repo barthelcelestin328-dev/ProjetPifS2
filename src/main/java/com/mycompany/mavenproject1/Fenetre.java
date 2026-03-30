@@ -6,9 +6,9 @@ package com.mycompany.mavenproject1;
 
 /**
  *
- * @author cbarthel01
+ * @author nhaas01
  */
-public class Niveau {
-    
+public class Fenetre {
+    private int idFenetre;
     
 }
