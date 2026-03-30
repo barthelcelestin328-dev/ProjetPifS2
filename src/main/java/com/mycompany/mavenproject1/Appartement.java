@@ -9,5 +9,29 @@ package com.mycompany.mavenproject1;
  * @author cbarthel01
  */
 public class Appartement {
+    private int idAppart;
+    private Piece piece;
+
+    public Appartement(int idAppart, Piece piece) {
+        this.idAppart = idAppart;
+        this.piece = piece;
+    }
+
+    public int getIdAppart() {
+        return idAppart;
+    }
+
+    public void setIdAppart(int idAppart) {
+        this.idAppart = idAppart;
+    }
+
+    public Piece getPiece() {
+        return piece;
+    }
+
+    public void setPiece(Piece piece) {
+        this.piece = piece;
+    }
+    
     
 }
