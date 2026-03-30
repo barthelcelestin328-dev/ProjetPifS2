@@ -9,5 +9,15 @@ package com.mycompany.mavenproject1;
  * @author cbarthel01
  */
 public class Facade {
+    private int idFacade;
+
+    public int getIdFacade() {
+        return idFacade;
+    }
+
+    public void setIdFacade(int idFacade) {
+        this.idFacade = idFacade;
+    }
+    
     
 }

@@ -9,5 +9,15 @@ package com.mycompany.mavenproject1;
  * @author cbarthel01
  */
 public class Plafond {
+    private int idPlafond;
+
+    public int getIdPlafond() {
+        return idPlafond;
+    }
+
+    public void setIdPlafond(int idPlafond) {
+        this.idPlafond = idPlafond;
+    }
+    
     
 }

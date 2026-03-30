@@ -10,5 +10,15 @@ package com.mycompany.mavenproject1;
  */
 public class Porte {
     private int idPorte;
+
+    public int getIdPorte() {
+        return idPorte;
+    }
+
+    public void setIdPorte(int idPorte) {
+        this.idPorte = idPorte;
+    }
+    
+    
     
 }
