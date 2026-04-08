@@ -29,11 +29,11 @@ public class Immeuble {
         this.idImmeuble = idImmeuble;
     }
 
-    public ArrayListe getNiveau() {
+    public ArrayList getNiveau() {
         return niveau;
     }
 
-    public void setNiveau(ArrayListe niveau) {
+    public void setNiveau(ArrayList niveau) {
         this.niveau = niveau;
     }
 
