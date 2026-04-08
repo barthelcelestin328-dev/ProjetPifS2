@@ -30,5 +30,5 @@ public class Niveau {
     public void setHauteurPlafond(float hauteurPlafond) {this.hauteurPlafond = hauteurPlafond;}
     
     
-    
+    public 
 }

@@ -10,5 +10,19 @@ package com.mycompany.mavenproject1;
  */
 public class Fenetre {
     private int idFenetre;
+
+    public Fenetre(int idFenetre) {
+        this.idFenetre = idFenetre;
+    }
+
+    public int getIdFenetre() {
+        return idFenetre;
+    }
+
+    public void setIdFenetre(int idFenetre) {
+        this.idFenetre = idFenetre;
+    }
+    
+    
     
 }
