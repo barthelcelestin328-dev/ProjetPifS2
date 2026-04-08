@@ -83,6 +83,12 @@ public class Piece {
         this.hauteur = hauteur;
     }
     
-    
+    public double surface(){
+        double s=0;
+        
+        for (int i=0; i<piece.getCoins().size(),i++){
+            Coin c = piece.getCoins().get(i);
+        }
+    }
     
 }
