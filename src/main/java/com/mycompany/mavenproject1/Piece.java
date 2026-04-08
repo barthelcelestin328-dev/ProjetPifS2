@@ -87,7 +87,7 @@ public class Piece {
         double s=0;
         
         for (int i=0; i<piece.getCoins().size(),i++){
-            Coin c = piece.getCoins().get(i);
+            Coin c = piece.getCoins().get(i);0
         }
     }
     
