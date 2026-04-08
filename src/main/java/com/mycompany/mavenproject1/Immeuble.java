@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.mavenproject1;
+import java.util.ArrayList;
 
 /**
  *
@@ -10,11 +11,11 @@ package com.mycompany.mavenproject1;
  */
 public class Immeuble {
     private int idImmeuble;
-    private ArrayListe niveau;
+    private ArrayList niveau;
     private int maxX;
     private int maxY;
 
-    public Immeuble(int idImmeuble, ArrayListe niveau, int maxX, int maxY) {
+    public Immeuble(int idImmeuble, ArrayList niveau, int maxX, int maxY) {
         this.idImmeuble = idImmeuble;
         this.niveau = niveau;
         this.maxX = maxX;
